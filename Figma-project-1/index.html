@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body class="bg-fullbodyColor" style="font-family: 'Playfair Display', serif">
+    <div class="navigationContainer">
+      <nav class="flex justify-evenly flex-col md:flex-row bg-white px-2 sm:px-4
+        py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0
+        dark:border-gray-600 border-b-2 border-yellow-300 drop-shadow-md">
+        <!-- LEFT SIDE NAVIGATION -->
+        <div class="button_imgContainer flex justify-evenly">
+          <button class="block border-0 bg-transparent py-2 px-2.5
+            text-neutral-500
+            hover:no-underline hover:shadow-none focus:no-underline
+            focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
+            type="button" data-te-collapse-init
+            data-te-target="#navbarSupportedContent3"
+            aria-controls="navbarSupportedContent3" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="[&>svg]:w-7">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="currentColor" class="h-7 w-7">
+                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75
+                  6h16.5a.75.75
+                  0 010
+                  1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0
+                  01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0
+                  5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0
+                  01-.75-.75z" clip-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <div class="LOGO md:pl-40">
+              <h1>
+                <a href="#"><img class="w-60" src="./Main LOGO.png" alt="Main
+                    LOGO" /></a>
+              </h1>
+            </div>
+          </div>
+          <!-- LEFT SIDE NAVIGATION -->
+          <!-- Right SIDE NAVIGATION -->
+          <div class="rightNavigation hidden md:flex xs:ml-40">
+            <div class="flex justify-between items-center text-gray-700">
+              <ul class="md:flex items-center text-sm sm:px-10 sm:text-base
+                font-semibold-cursor-pointer hidden">
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#mainHomeIntro">HOME</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#aboutMe">BLOG</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#projects">FEATURES</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#services">CATEGORIES</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#contact">ABOUT</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#contact">CONTACT</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#contact">SHOP</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#contact">PORTFOLIO</a>
+                </li>
+                <li class="text-TextPrimaryFigma text-xs py-4 px-5">
+                  <a href="#contact">TOGGLE BUTTON</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="!visible hidden flex-grow basis-[100%] items-center
+            lg:!flex
+            lg:basis-auto" id="navbarSupportedContent3" data-te-collapse-item>
+            <a class="text-xl text-black md:hidden" href="#">Navbar</a>
+            <!-- Left links -->
+            <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row
+              md:hidden" data-te-navbar-nav-ref>
+              <li class="lg:px-2" data-te-nav-item-ref>
+                <a class="active disabled:text-black/30 lg:px-2
+                  [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  aria-current="page" href="#"
+                  data-te-nav-link-ref>Home</a>
+              </li>
+              <li class="lg:pr-2" data-te-nav-item-ref>
+                <a class="p-0 text-neutral-500 hover:text-neutral-700
+                  focus:text-neutral-700 disabled:text-black/30 lg:px-2
+                  [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  href="#" data-te-nav-link-ref>Features</a>
+              </li>
+              <li class="lg:pr-2" data-te-nav-item-ref>
+                <a class="p-0 text-neutral-500 hover:text-neutral-700
+                  focus:text-neutral-700 disabled:text-black/30 lg:px-2
+                  [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  href="#" data-te-nav-link-ref>Pricing</a>
+              </li>
+              <li class="lg:pr-2" data-te-nav-link-ref>
+                <a class="text-black/30 lg:px-2 [&.active]:text-black/90
+                  dark:[&.active]:text-neutral-400">Disabled</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Right SIDE NAVIGATION -->
+        </nav>
+      </div>
+
+      <!-- Main Intro Section -->
+      <section id="mainIntro" class="pt-44 pb-6">
+        <div class="outerContainer w-screen overflow-scroll scrollbar-hide
+          scrollbar-hide">
+          <div class="cardsContainer overflow-scroll flex flex-row
+            justify-between
+            border-2 min-w-[auto] scrollbar-hide
+            scrollbar-hide">
+            <div class="imageContainer-1 border-2 border-black m-5">
+              <img class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 65.png" alt="image1" />
+            </div>
+            <div class="imageContainer-2 border-2 border-black m-5 md:relative
+              md:bottom-12">
+              <img class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 66.png" alt="image2" />
+            </div>
+            <div class="imageContainer-3 border-2 border-black m-5">
+              <img class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 67.png" alt="image3" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mainHeadings">
+          <h2 class="font-medium italic text-xl text-center leading-6
+            text-TextPrimaryFigma">
+            HEY THERE
+          </h2>
+        </div>
+
+        <div class="mainHeadings p-3">
+          <h2 class="font-semibold text-3xl text-center leading-6
+            text-TextPrimaryFigma">I'm Haus</h2>
+        </div>
+        <div class="mainPara p-3">
+          <p class="text-base text-center leading-6
+            text-TextPrimaryFigma">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Aliquam libero ex, tristique sed dignissim vel,
+            cursus ut magna. Aenean lacinia mi eget orci aliquet pharetra. Duis
+            ut ultricies felis. Nulla vitae mi dictum, scelerisque nibh eget,
+            sagittis ligula.Nulla tortor quam, feugiat id laoreet ac,
+            pellentesque sed tellus. Nunc condimentum, magna vel sodales mollis,
+            nisl nibh ornare eros, vel malesuada nunc metus at elit. Aenean
+            vitae arcu auctor, imperdiet nisl quis, interdum lacus.</p>
+        </div>
+        <div class="headButton p-3 text-center">
+          <h2><a href="#" class="font-medium italic text-xl
+              text-center leading-6
+              text-TextPrimaryFigma tracking-wide border-2 p-2
+              border-TextPrimaryFigma">READ THE WHOLE STORY</a></h2>
+        </div>
+      </section>
+      <!-- Main Intro Section -->
+      <!-- Get Started Section -->
+      <section id="getstartedSection" class="bg-bgsecondary pt-20">
+        <div class="outerContainer p-8 flex flex-col md:flex-row">
+          <!-- LEFT SIDE -->
+          <div class="leftSide p-4">
+            <img src="./images/GetStared.png" alt="GetStared">
+          </div>
+          <!-- LEFT SIDE -->
+          <!-- RIGHT SIDE -->
+          <div class="rightSide flex flex-col p-3">
+            <div class="headingContainer">
+              <h2 class="text-lg font-medium leading-loose">Condimentum Magna
+                Vel Sodales Mollis Nisl Nibh
+                Ornare Eros
+              </h2>
+            </div>
+            <div class="paraContainer pt-3">
+              <p class="text-sm">Nunc condimentum, magna vel sodales mollis,
+                nisl nibh ornare
+                eros, vel malesuada nunc metus. Aenean vitae arcu auctor,
+                imperdiet nisl quis interdum lacus.</p>
+            </div>
+            <div class="buttonGetstared pt-3">
+              <h2><a href="#" class="font-medium italic text-sm
+                  text-center leading-6
+                  text-TextPrimaryFigma tracking-wide border-2 p-2
+                  border-TextPrimaryFigma">GET STARTED</a></h2>
+            </div>
+          </div>
+          <!-- RIGHT SIDE -->
+        </div>
+      </section>
+      <!-- Get Started  Section -->
+      <!-- Portfolio Section -->
+
+      <section id="portfolio" class="pt-20 bg-white">
+        <div class="mainHeadings md:hidden">
+          <h2 class="font-medium italic text-xl text-center leading-6
+            text-TextPrimaryFigma">
+            THE PORTFOLIO
+          </h2>
+        </div>
+
+        <div class="mainHeadings p-3 pb-7 md:hidden">
+          <h2 class="font-semibold text-3xl text-center leading-6
+            text-TextPrimaryFigma">VIEW RECENT WORK</h2>
+        </div>
+        <!-- CAROUSEL CONTAINER -->
+        <div class="carousel mt-6 md:hidden">
+          <div id="carouselExampleControls" class="relative"
+            data-te-carousel-init data-te-carousel-slide>
+            <div class="relative w-full overflow-hidden after:clear-both
+              after:block after:content-['']">
+              <div class="relative float-left -mr-[100%] w-full
+                transition-transform duration-[600ms] ease-in-out
+                motion-reduce:transition-none" data-te-carousel-item
+                data-te-carousel-active>
+                <img
+                  src="https://images.pexels.com/photos/1642041/pexels-photo-1642041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="block w-full" alt="art 1" />
+              </div>
+              <div class="relative float-left -mr-[100%] hidden w-full
+                transition-transform duration-[600ms] ease-in-out
+                motion-reduce:transition-none" data-te-carousel-item>
+                <img
+                  src="https://images.pexels.com/photos/6732517/pexels-photo-6732517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="block w-full" alt="Art 2" />
+              </div>
+              <div class="relative float-left -mr-[100%] hidden w-full
+                transition-transform duration-[600ms] ease-in-out
+                motion-reduce:transition-none" data-te-carousel-item>
+                <img
+                  src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="block w-full" alt="Art 3" />
+              </div>
+            </div>
+            <button class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%]
+              items-center justify-center border-0 bg-none p-0 text-center
+              text-white opacity-50 transition-opacity duration-150
+              ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
+              hover:no-underline hover:opacity-90 hover:outline-none
+              focus:text-white focus:no-underline focus:opacity-90
+              focus:outline-none motion-reduce:transition-none" type="button"
+              data-te-target="#carouselExampleControls"
+              data-te-slide="prev">
+              <span class="inline-block h-8 w-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0
+                  24 24" stroke-width="1.5" stroke="currentColor" class="h-6
+                  w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75
+                    19.5L8.25 12l7.5-7.5" />
+                  </svg>
+                </span>
+                <span class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                  !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+              </button>
+              <button class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%]
+                items-center justify-center border-0 bg-none p-0 text-center
+                text-white opacity-50 transition-opacity duration-150
+                ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
+                hover:no-underline hover:opacity-90 hover:outline-none
+                focus:text-white focus:no-underline focus:opacity-90
+                focus:outline-none motion-reduce:transition-none" type="button"
+                data-te-target="#carouselExampleControls" data-te-slide="next">
+                <span class="inline-block h-8 w-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0
+                    0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6
+                    w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </span>
+                  <span class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                    !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+                </button>
+              </div>
+
+              <!-- CAROUSEL CONTAINER -->
+              <!-- wwwwwwwwwwwwww -->
+            </div>
+
+            <div class=" hidden md:grid md:grid-cols-3 md:p-20 lg:p-30 xl:p-52">
+              <div class="col1 grid grid-cols-1 gap-20">
+                <div class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
+                  transition duration-700 ease-in-out">
+                  <img class="w-full" src="./images/Architecture 1.png"
+                    alt="Architecture">
+                  <a href="#">
+                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                      w-full overflow-hidden bg-fixed opacity-0 transition
+                      duration-300 ease-in-out hover:opacity-100"
+                      style="background-color: rgba(251, 251, 251, 0.2)">
+                      <h2 class="font-bold italic text-2xl text-center
+                        absolute top-2/4 left-2/4 -translate-x-1/2
+                        -translate-y-1/2
+                        leading-6
+                        text-TextPrimaryFigma">
+                        Architecture
+                      </h2>
+                    </div>
+                  </a>
+
+                </div>
+                <div class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
+                  transition duration-700 ease-in-out">
+                  <img class="w-full" src="./images/Photography 1.png"
+                    alt="Photography">
+                  <a href="#">
+                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                      w-full overflow-hidden bg-fixed opacity-0 transition
+                      duration-300 ease-in-out hover:opacity-100"
+                      style="background-color: rgba(251, 251, 251, 0.2)">
+                      <h2 class="font-bold italic text-2xl text-center
+                        absolute top-2/4 left-2/4 -translate-x-1/2
+                        -translate-y-1/2
+                        leading-6
+                        text-TextPrimaryFigma">
+                        PHOTOGRAPHY
+                      </h2>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+              <div class="col2 flex justify-center flex-wrap content-center
+                flex-col">
+                <h2 class="font-medium italic text-xl text-center leading-6
+                  text-TextPrimaryFigma">
+                  THE PORTFOLIO
+                </h2>
+                <h2 class="font-semibold text-3xl xl:text-5xl text-center
+                  leading-6
+                  text-TextPrimaryFigma">VIEW RECENT WORK</h2>
+              </div>
+              <div class="col1 grid grid-cols-1 gap-20">
+                <div class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
+                  transition duration-700 ease-in-out">
+                  <img class="w-full" src="./images/Interior 1.png"
+                    alt="INTERIOR">
+                  <a href="#">
+                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                      w-full overflow-hidden bg-fixed opacity-0 transition
+                      duration-300 ease-in-out hover:opacity-100"
+                      style="background-color: rgba(251, 251, 251, 0.2)">
+                      <h2 class="font-bold italic text-2xl text-center
+                        absolute top-2/4 left-2/4 -translate-x-1/2
+                        -translate-y-1/2
+                        leading-6
+                        text-TextPrimaryFigma">
+                        INTERIOR
+                      </h2>
+                    </div>
+                  </a>
+
+                </div>
+                <div class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
+                  transition duration-700 ease-in-out">
+                  <img class="w-full" src="./images/Animal1.png" alt="ANIMALS">
+                  <a href="#">
+                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                      w-full overflow-hidden bg-fixed opacity-0 transition
+                      duration-300 ease-in-out hover:opacity-100"
+                      style="background-color: rgba(251, 251, 251, 0.2)">
+                      <h2 class="font-bold italic text-2xl text-center
+                        absolute top-2/4 left-2/4 -translate-x-1/2
+                        -translate-y-1/2
+                        leading-6
+                        text-TextPrimaryFigma">
+                        ANIMALS
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Portfolio  Section -->
+
+
+          <!-- Tools For Creatives Section -->
+          <section id="creativesSection" class="lg:px-36">
+            <div class="outerContainer p-8 flex flex-col md:flex-row-reverse">
+              <!-- LEFT SIDE -->
+              <div class="leftSide p-4 grid grid-cols-2 gap-5 xl:gap-28">
+                <div class="imageContainer">
+                  <img class="drop-shadow-xl rounded-lg"
+                    src="./images/Tooools 1.png" alt="Toools 1">
+                </div>
+                <div class="imageContainer"><img class="drop-shadow-xl
+                    rounded-lg" src="./images/Tools 2.png" alt="Tools 2"></div>
+              </div>
+              <!-- LEFT SIDE -->
+              <!-- RIGHT SIDE -->
+              <div class="rightSide flex flex-col p-3">
+                <div class="headingContainer p-2">
+                  <h2 class="text-2xl font-bold leading-loose">Tools For
+                    Creatives
+                  </h2>
+                </div>
+                <div class="paraContainer pt-3">
+                  <p class="text-sm font-medium leading-7 md:leading-10
+                    lg:leading-loose">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Ut elit tellus, luctus nec
+                    ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="buttonGetstared pt-5">
+                  <h2><a href="#" class="font-medium italic text-sm
+                      text-center leading-6
+                      text-TextPrimaryFigma tracking-wide border-2 p-2
+                      border-TextPrimaryFigma">GO TO THE BLOG</a></h2>
+                </div>
+              </div>
+              <!-- RIGHT SIDE -->
+            </div>
+          </section>
+          <!-- Tools For Creatives Section -->
+
+
+          <!-- CLIENTS SECTION -->
+          <section id="CLIENTSSECTION" class="pt-44 bg-white">
+            <div class="outerContainer w-screen overflow-scroll scrollbar-hide
+              scrollbar-hide">
+              <div class="cardsContainer overflow-scroll flex flex-row
+                justify-between md:justify-center
+                border-2 min-w-[auto] scrollbar-hide
+                scrollbar-hide">
+                <div class="imageContainer-1 border-2 border-black m-1">
+                  <img class="max-w-fit md:max-w-full"
+                    src="./images/Rectangle 65.png" alt="image1" />
+                </div>
+                <div class="imageContainer-2 border-2 border-black m-1">
+                  <img class="max-w-fit md:max-w-full"
+                    src="./images/Rectangle 66.png" alt="image2" />
+                </div>
+                <div class="imageContainer-3 border-2 border-black m-1">
+                  <img class="max-w-fit md:max-w-full"
+                    src="./images/Rectangle 67.png" alt="image3" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- CLIENTS SECTION -->
+
+        </body>
+        <script type="module" src="/main.js"></script>
+        <!-- <script src="./node_modules/tw-elements/dist/js/index.min.js"></script> -->
+        <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+      </html>
