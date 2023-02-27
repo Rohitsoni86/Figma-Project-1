@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -8,41 +7,56 @@
     <title>Figma Project</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+      />
   </head>
 
   <body class="bg-fullbodyColor" style="font-family: 'Playfair Display', serif">
     <div class="navigationContainer">
-      <nav class="flex justify-evenly flex-col md:flex-row bg-white px-2 sm:px-4
+      <nav
+        class="flex justify-evenly flex-col md:flex-row bg-white px-2 sm:px-4
         py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0
         dark:border-gray-600 border-b-2 border-yellow-300 drop-shadow-md">
         <!-- LEFT SIDE NAVIGATION -->
         <div class="button_imgContainer flex justify-evenly">
-          <button class="block border-0 bg-transparent py-2 px-2.5
-            text-neutral-500
+          <button
+            class="block border-0 bg-transparent py-2 px-2.5 text-neutral-500
             hover:no-underline hover:shadow-none focus:no-underline
             focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
-            type="button" data-te-collapse-init
+            type="button"
+            data-te-collapse-init
             data-te-target="#navbarSupportedContent3"
-            aria-controls="navbarSupportedContent3" aria-expanded="false"
+            aria-controls="navbarSupportedContent3"
+            aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="[&>svg]:w-7">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                fill="currentColor" class="h-7 w-7">
-                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="h-7 w-7">
+                <path
+                  fill-rule="evenodd"
+                  d="M3 6.75A.75.75 0 013.75
                   6h16.5a.75.75
                   0 010
                   1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0
                   01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0
                   5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0
-                  01-.75-.75z" clip-rule="evenodd" />
+                  01-.75-.75z"
+                  clip-rule="evenodd"
+                  />
                 </svg>
               </span>
             </button>
             <div class="LOGO md:pl-40">
               <h1>
-                <a href="#"><img class="w-60" src="./Main LOGO.png" alt="Main
-                    LOGO" /></a>
+                <a href="#"><img
+                    class="w-60"
+                    src="./Main LOGO.png"
+                    alt="Main
+                    LOGO"
+                    /></a>
               </h1>
             </div>
           </div>
@@ -50,7 +64,8 @@
           <!-- Right SIDE NAVIGATION -->
           <div class="rightNavigation hidden md:flex xs:ml-40">
             <div class="flex justify-between items-center text-gray-700">
-              <ul class="md:flex items-center text-sm sm:px-10 sm:text-base
+              <ul
+                class="md:flex items-center text-sm sm:px-10 sm:text-base
                 font-semibold-cursor-pointer hidden">
                 <li class="text-TextPrimaryFigma text-xs py-4 px-5">
                   <a href="#mainHomeIntro">HOME</a>
@@ -82,33 +97,44 @@
               </ul>
             </div>
           </div>
-          <div class="!visible hidden flex-grow basis-[100%] items-center
-            lg:!flex
-            lg:basis-auto" id="navbarSupportedContent3" data-te-collapse-item>
+          <div
+            class="!visible hidden flex-grow basis-[100%] items-center lg:!flex
+            lg:basis-auto"
+            id="navbarSupportedContent3"
+            data-te-collapse-item>
             <a class="text-xl text-black md:hidden" href="#">Navbar</a>
             <!-- Left links -->
-            <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row
-              md:hidden" data-te-navbar-nav-ref>
+            <ul
+              class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row
+              md:hidden"
+              data-te-navbar-nav-ref>
               <li class="lg:px-2" data-te-nav-item-ref>
-                <a class="active disabled:text-black/30 lg:px-2
+                <a
+                  class="active disabled:text-black/30 lg:px-2
                   [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  aria-current="page" href="#"
+                  aria-current="page"
+                  href="#"
                   data-te-nav-link-ref>Home</a>
               </li>
               <li class="lg:pr-2" data-te-nav-item-ref>
-                <a class="p-0 text-neutral-500 hover:text-neutral-700
+                <a
+                  class="p-0 text-neutral-500 hover:text-neutral-700
                   focus:text-neutral-700 disabled:text-black/30 lg:px-2
                   [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  href="#" data-te-nav-link-ref>Features</a>
+                  href="#"
+                  data-te-nav-link-ref>Features</a>
               </li>
               <li class="lg:pr-2" data-te-nav-item-ref>
-                <a class="p-0 text-neutral-500 hover:text-neutral-700
+                <a
+                  class="p-0 text-neutral-500 hover:text-neutral-700
                   focus:text-neutral-700 disabled:text-black/30 lg:px-2
                   [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  href="#" data-te-nav-link-ref>Pricing</a>
+                  href="#"
+                  data-te-nav-link-ref>Pricing</a>
               </li>
               <li class="lg:pr-2" data-te-nav-link-ref>
-                <a class="text-black/30 lg:px-2 [&.active]:text-black/90
+                <a
+                  class="text-black/30 lg:px-2 [&.active]:text-black/90
                   dark:[&.active]:text-neutral-400">Disabled</a>
               </li>
             </ul>
@@ -120,55 +146,75 @@
 
       <!-- Main Intro Section -->
       <section id="mainIntro" class="pt-44 pb-6">
-        <div class="outerContainer w-screen overflow-scroll scrollbar-hide
+        <div
+          class="outerContainer w-screen overflow-scroll scrollbar-hide
           scrollbar-hide">
-          <div class="cardsContainer overflow-scroll flex flex-row
-            justify-between
-            border-2 min-w-[auto] scrollbar-hide
-            scrollbar-hide">
+          <div
+            class="cardsContainer overflow-scroll flex flex-row justify-between
+            border-2 min-w-[auto] scrollbar-hide scrollbar-hide">
             <div class="imageContainer-1 border-2 border-black m-5">
-              <img class="max-w-fit md:max-w-full"
-                src="./images/Rectangle 65.png" alt="image1" />
+              <img
+                class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 65.png"
+                alt="image1"
+                />
             </div>
-            <div class="imageContainer-2 border-2 border-black m-5 md:relative
+            <div
+              class="imageContainer-2 border-2 border-black m-5 md:relative
               md:bottom-12">
-              <img class="max-w-fit md:max-w-full"
-                src="./images/Rectangle 66.png" alt="image2" />
+              <img
+                class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 66.png"
+                alt="image2"
+                />
             </div>
             <div class="imageContainer-3 border-2 border-black m-5">
-              <img class="max-w-fit md:max-w-full"
-                src="./images/Rectangle 67.png" alt="image3" />
+              <img
+                class="max-w-fit md:max-w-full"
+                src="./images/Rectangle 67.png"
+                alt="image3"
+                />
             </div>
           </div>
         </div>
 
         <div class="mainHeadings">
-          <h2 class="font-medium italic text-xl text-center leading-6
+          <h2
+            class="font-medium italic text-xl text-center leading-6
             text-TextPrimaryFigma">
             HEY THERE
           </h2>
         </div>
 
         <div class="mainHeadings p-3">
-          <h2 class="font-semibold text-3xl text-center leading-6
-            text-TextPrimaryFigma">I'm Haus</h2>
+          <h2
+            class="font-semibold text-3xl text-center leading-6
+            text-TextPrimaryFigma">
+            I'm Haus
+          </h2>
         </div>
         <div class="mainPara p-3">
-          <p class="text-base text-center leading-6
-            text-TextPrimaryFigma">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Aliquam libero ex, tristique sed dignissim vel,
-            cursus ut magna. Aenean lacinia mi eget orci aliquet pharetra. Duis
-            ut ultricies felis. Nulla vitae mi dictum, scelerisque nibh eget,
-            sagittis ligula.Nulla tortor quam, feugiat id laoreet ac,
-            pellentesque sed tellus. Nunc condimentum, magna vel sodales mollis,
-            nisl nibh ornare eros, vel malesuada nunc metus at elit. Aenean
-            vitae arcu auctor, imperdiet nisl quis, interdum lacus.</p>
+          <p class="text-base text-center leading-6 text-TextPrimaryFigma">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            libero ex, tristique sed dignissim vel, cursus ut magna. Aenean
+            lacinia mi eget orci aliquet pharetra. Duis ut ultricies felis.
+            Nulla
+            vitae mi dictum, scelerisque nibh eget, sagittis ligula.Nulla tortor
+            quam, feugiat id laoreet ac, pellentesque sed tellus. Nunc
+            condimentum, magna vel sodales mollis, nisl nibh ornare eros, vel
+            malesuada nunc metus at elit. Aenean vitae arcu auctor, imperdiet
+            nisl
+            quis, interdum lacus.
+          </p>
         </div>
         <div class="headButton p-3 text-center">
-          <h2><a href="#" class="font-medium italic text-xl
-              text-center leading-6
+          <h2>
+            <a
+              href="#"
+              class="font-medium italic text-xl text-center leading-6
               text-TextPrimaryFigma tracking-wide border-2 p-2
-              border-TextPrimaryFigma">READ THE WHOLE STORY</a></h2>
+              border-TextPrimaryFigma">READ THE WHOLE STORY</a>
+          </h2>
         </div>
       </section>
       <!-- Main Intro Section -->
@@ -177,28 +223,33 @@
         <div class="outerContainer p-8 flex flex-col md:flex-row">
           <!-- LEFT SIDE -->
           <div class="leftSide p-4">
-            <img src="./images/GetStared.png" alt="GetStared">
+            <img src="./images/GetStared.png" alt="GetStared" />
           </div>
           <!-- LEFT SIDE -->
           <!-- RIGHT SIDE -->
           <div class="rightSide flex flex-col p-3">
             <div class="headingContainer">
-              <h2 class="text-lg font-medium leading-loose">Condimentum Magna
-                Vel Sodales Mollis Nisl Nibh
-                Ornare Eros
+              <h2 class="text-lg font-medium leading-loose">
+                Condimentum Magna Vel Sodales Mollis Nisl Nibh Ornare Eros
               </h2>
             </div>
             <div class="paraContainer pt-3">
-              <p class="text-sm">Nunc condimentum, magna vel sodales mollis,
-                nisl nibh ornare
-                eros, vel malesuada nunc metus. Aenean vitae arcu auctor,
-                imperdiet nisl quis interdum lacus.</p>
+              <p class="text-sm">
+                Nunc condimentum, magna vel sodales mollis, nisl nibh ornare
+                eros,
+                vel malesuada nunc metus. Aenean vitae arcu auctor, imperdiet
+                nisl
+                quis interdum lacus.
+              </p>
             </div>
             <div class="buttonGetstared pt-3">
-              <h2><a href="#" class="font-medium italic text-sm
-                  text-center leading-6
+              <h2>
+                <a
+                  href="#"
+                  class="font-medium italic text-sm text-center leading-6
                   text-TextPrimaryFigma tracking-wide border-2 p-2
-                  border-TextPrimaryFigma">GET STARTED</a></h2>
+                  border-TextPrimaryFigma">GET STARTED</a>
+              </h2>
             </div>
           </div>
           <!-- RIGHT SIDE -->
@@ -209,82 +260,126 @@
 
       <section id="portfolio" class="pt-20 bg-white">
         <div class="mainHeadings md:hidden">
-          <h2 class="font-medium italic text-xl text-center leading-6
+          <h2
+            class="font-medium italic text-xl text-center leading-6
             text-TextPrimaryFigma">
             THE PORTFOLIO
           </h2>
         </div>
 
         <div class="mainHeadings p-3 pb-7 md:hidden">
-          <h2 class="font-semibold text-3xl text-center leading-6
-            text-TextPrimaryFigma">VIEW RECENT WORK</h2>
+          <h2
+            class="font-semibold text-3xl text-center leading-6
+            text-TextPrimaryFigma">
+            VIEW RECENT WORK
+          </h2>
         </div>
         <!-- CAROUSEL CONTAINER -->
         <div class="carousel mt-6 md:hidden">
-          <div id="carouselExampleControls" class="relative"
-            data-te-carousel-init data-te-carousel-slide>
-            <div class="relative w-full overflow-hidden after:clear-both
+          <div
+            id="carouselExampleControls"
+            class="relative"
+            data-te-carousel-init
+            data-te-carousel-slide>
+            <div
+              class="relative w-full overflow-hidden after:clear-both
               after:block after:content-['']">
-              <div class="relative float-left -mr-[100%] w-full
+              <div
+                class="relative float-left -mr-[100%] w-full
                 transition-transform duration-[600ms] ease-in-out
-                motion-reduce:transition-none" data-te-carousel-item
+                motion-reduce:transition-none"
+                data-te-carousel-item
                 data-te-carousel-active>
                 <img
                   src="https://images.pexels.com/photos/1642041/pexels-photo-1642041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  class="block w-full" alt="art 1" />
+                  class="block w-full"
+                  alt="art 1"
+                  />
               </div>
-              <div class="relative float-left -mr-[100%] hidden w-full
+              <div
+                class="relative float-left -mr-[100%] hidden w-full
                 transition-transform duration-[600ms] ease-in-out
-                motion-reduce:transition-none" data-te-carousel-item>
+                motion-reduce:transition-none"
+                data-te-carousel-item>
                 <img
                   src="https://images.pexels.com/photos/6732517/pexels-photo-6732517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  class="block w-full" alt="Art 2" />
+                  class="block w-full"
+                  alt="Art 2"
+                  />
               </div>
-              <div class="relative float-left -mr-[100%] hidden w-full
+              <div
+                class="relative float-left -mr-[100%] hidden w-full
                 transition-transform duration-[600ms] ease-in-out
-                motion-reduce:transition-none" data-te-carousel-item>
+                motion-reduce:transition-none"
+                data-te-carousel-item>
                 <img
                   src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  class="block w-full" alt="Art 3" />
+                  class="block w-full"
+                  alt="Art 3"
+                  />
               </div>
             </div>
-            <button class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%]
+            <button
+              class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%]
               items-center justify-center border-0 bg-none p-0 text-center
               text-white opacity-50 transition-opacity duration-150
               ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
               hover:no-underline hover:opacity-90 hover:outline-none
               focus:text-white focus:no-underline focus:opacity-90
-              focus:outline-none motion-reduce:transition-none" type="button"
+              focus:outline-none motion-reduce:transition-none"
+              type="button"
               data-te-target="#carouselExampleControls"
               data-te-slide="prev">
               <span class="inline-block h-8 w-8">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0
-                  24 24" stroke-width="1.5" stroke="currentColor" class="h-6
-                  w-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75
-                    19.5L8.25 12l7.5-7.5" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0
+                  24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-6 w-6">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75
+                    19.5L8.25 12l7.5-7.5"
+                    />
                   </svg>
                 </span>
-                <span class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                <span
+                  class="!absolute !-m-px !h-px !w-px !overflow-hidden
                   !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
               </button>
-              <button class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%]
+              <button
+                class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%]
                 items-center justify-center border-0 bg-none p-0 text-center
                 text-white opacity-50 transition-opacity duration-150
                 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
                 hover:no-underline hover:opacity-90 hover:outline-none
                 focus:text-white focus:no-underline focus:opacity-90
-                focus:outline-none motion-reduce:transition-none" type="button"
-                data-te-target="#carouselExampleControls" data-te-slide="next">
+                focus:outline-none motion-reduce:transition-none"
+                type="button"
+                data-te-target="#carouselExampleControls"
+                data-te-slide="next">
                 <span class="inline-block h-8 w-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0
-                    0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6
-                    w-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0
+                    0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
                     </svg>
                   </span>
-                  <span class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                  <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden
                     !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
                 </button>
               </div>
@@ -293,93 +388,104 @@
               <!-- wwwwwwwwwwwwww -->
             </div>
 
-            <div class=" hidden md:grid md:grid-cols-3 md:p-20 lg:p-30 xl:p-52">
+            <div class="hidden md:grid md:grid-cols-3 md:p-20 lg:p-30 xl:p-52">
               <div class="col1 grid grid-cols-1 gap-20">
-                <div class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
+                <div
+                  class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
                   transition duration-700 ease-in-out">
-                  <img class="w-full" src="./images/Architecture 1.png"
-                    alt="Architecture">
+                  <img
+                    class="w-full"
+                    src="./images/Architecture 1.png"
+                    alt="Architecture"
+                    />
                   <a href="#">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full
                       w-full overflow-hidden bg-fixed opacity-0 transition
                       duration-300 ease-in-out hover:opacity-100"
                       style="background-color: rgba(251, 251, 251, 0.2)">
-                      <h2 class="font-bold italic text-2xl text-center
-                        absolute top-2/4 left-2/4 -translate-x-1/2
-                        -translate-y-1/2
-                        leading-6
-                        text-TextPrimaryFigma">
+                      <h2
+                        class="font-bold italic text-2xl text-center absolute
+                        top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2
+                        leading-6 text-TextPrimaryFigma">
                         Architecture
                       </h2>
                     </div>
                   </a>
-
                 </div>
-                <div class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
+                <div
+                  class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
                   transition duration-700 ease-in-out">
-                  <img class="w-full" src="./images/Photography 1.png"
-                    alt="Photography">
+                  <img
+                    class="w-full"
+                    src="./images/Photography 1.png"
+                    alt="Photography"
+                    />
                   <a href="#">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full
                       w-full overflow-hidden bg-fixed opacity-0 transition
                       duration-300 ease-in-out hover:opacity-100"
                       style="background-color: rgba(251, 251, 251, 0.2)">
-                      <h2 class="font-bold italic text-2xl text-center
-                        absolute top-2/4 left-2/4 -translate-x-1/2
-                        -translate-y-1/2
-                        leading-6
-                        text-TextPrimaryFigma">
+                      <h2
+                        class="font-bold italic text-2xl text-center absolute
+                        top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2
+                        leading-6 text-TextPrimaryFigma">
                         PHOTOGRAPHY
                       </h2>
                     </div>
                   </a>
-
                 </div>
               </div>
               <div class="col2 flex justify-center flex-wrap content-center
                 flex-col">
-                <h2 class="font-medium italic text-xl text-center leading-6
+                <h2
+                  class="font-medium italic text-xl text-center leading-6
                   text-TextPrimaryFigma">
                   THE PORTFOLIO
                 </h2>
-                <h2 class="font-semibold text-3xl xl:text-5xl text-center
-                  leading-6
-                  text-TextPrimaryFigma">VIEW RECENT WORK</h2>
+                <h2
+                  class="font-semibold text-3xl xl:text-5xl text-center
+                  leading-6 text-TextPrimaryFigma">
+                  VIEW RECENT WORK
+                </h2>
               </div>
               <div class="col1 grid grid-cols-1 gap-20">
-                <div class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
+                <div
+                  class="image-1 drop-shadow-xl rounded-lg lg:hover:scale-110
                   transition duration-700 ease-in-out">
                   <img class="w-full" src="./images/Interior 1.png"
-                    alt="INTERIOR">
+                    alt="INTERIOR" />
                   <a href="#">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full
                       w-full overflow-hidden bg-fixed opacity-0 transition
                       duration-300 ease-in-out hover:opacity-100"
                       style="background-color: rgba(251, 251, 251, 0.2)">
-                      <h2 class="font-bold italic text-2xl text-center
-                        absolute top-2/4 left-2/4 -translate-x-1/2
-                        -translate-y-1/2
-                        leading-6
-                        text-TextPrimaryFigma">
+                      <h2
+                        class="font-bold italic text-2xl text-center absolute
+                        top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2
+                        leading-6 text-TextPrimaryFigma">
                         INTERIOR
                       </h2>
                     </div>
                   </a>
-
                 </div>
-                <div class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
+                <div
+                  class="image-2 drop-shadow-xl rounded-lg lg:hover:scale-110
                   transition duration-700 ease-in-out">
-                  <img class="w-full" src="./images/Animal1.png" alt="ANIMALS">
+                  <img class="w-full" src="./images/Animal1.png" alt="ANIMALS"
+                    />
                   <a href="#">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full
                       w-full overflow-hidden bg-fixed opacity-0 transition
                       duration-300 ease-in-out hover:opacity-100"
                       style="background-color: rgba(251, 251, 251, 0.2)">
-                      <h2 class="font-bold italic text-2xl text-center
-                        absolute top-2/4 left-2/4 -translate-x-1/2
-                        -translate-y-1/2
-                        leading-6
-                        text-TextPrimaryFigma">
+                      <h2
+                        class="font-bold italic text-2xl text-center absolute
+                        top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2
+                        leading-6 text-TextPrimaryFigma">
                         ANIMALS
                       </h2>
                     </div>
@@ -390,39 +496,53 @@
           </section>
           <!-- Portfolio  Section -->
 
-
           <!-- Tools For Creatives Section -->
           <section id="creativesSection" class="lg:px-36">
             <div class="outerContainer p-8 flex flex-col md:flex-row-reverse">
               <!-- LEFT SIDE -->
               <div class="leftSide p-4 grid grid-cols-2 gap-5 xl:gap-28">
                 <div class="imageContainer">
-                  <img class="drop-shadow-xl rounded-lg"
-                    src="./images/Tooools 1.png" alt="Toools 1">
+                  <img
+                    class="drop-shadow-xl rounded-lg"
+                    src="./images/Tooools 1.png"
+                    alt="Toools 1"
+                    />
                 </div>
-                <div class="imageContainer"><img class="drop-shadow-xl
-                    rounded-lg" src="./images/Tools 2.png" alt="Tools 2"></div>
+                <div class="imageContainer">
+                  <img
+                    class="drop-shadow-xl rounded-lg"
+                    src="./images/Tools 2.png"
+                    alt="Tools 2"
+                    />
+                </div>
               </div>
               <!-- LEFT SIDE -->
               <!-- RIGHT SIDE -->
               <div class="rightSide flex flex-col p-3">
                 <div class="headingContainer p-2">
-                  <h2 class="text-2xl font-bold leading-loose">Tools For
-                    Creatives
+                  <h2 class="text-2xl font-bold leading-loose">
+                    Tools For Creatives
                   </h2>
                 </div>
                 <div class="paraContainer pt-3">
-                  <p class="text-sm font-medium leading-7 md:leading-10
-                    lg:leading-loose">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Ut elit tellus, luctus nec
-                    ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.</p>
+                  <p
+                    class="text-sm font-medium leading-7 md:leading-10
+                    lg:leading-loose">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit
+                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </div>
                 <div class="buttonGetstared pt-5">
-                  <h2><a href="#" class="font-medium italic text-sm
-                      text-center leading-6
+                  <h2>
+                    <a
+                      href="#"
+                      class="font-medium italic text-sm text-center leading-6
                       text-TextPrimaryFigma tracking-wide border-2 p-2
-                      border-TextPrimaryFigma">GO TO THE BLOG</a></h2>
+                      border-TextPrimaryFigma">GO TO THE BLOG</a>
+                  </h2>
                 </div>
               </div>
               <!-- RIGHT SIDE -->
@@ -430,34 +550,1138 @@
           </section>
           <!-- Tools For Creatives Section -->
 
-
           <!-- CLIENTS SECTION -->
-          <section id="CLIENTSSECTION" class="pt-44 bg-white">
-            <div class="outerContainer w-screen overflow-scroll scrollbar-hide
-              scrollbar-hide">
-              <div class="cardsContainer overflow-scroll flex flex-row
-                justify-between md:justify-center
-                border-2 min-w-[auto] scrollbar-hide
-                scrollbar-hide">
-                <div class="imageContainer-1 border-2 border-black m-1">
-                  <img class="max-w-fit md:max-w-full"
-                    src="./images/Rectangle 65.png" alt="image1" />
+          <section id="CLIENTSSECTION" class="p-12 bg-white">
+
+            <!-- Mobile Devices & Tablet Devices -->
+            <div
+              id="carouselExampleCaptions"
+              class="relative lg:hidden"
+              data-te-carousel-init
+              data-te-carousel-slide>
+              <div
+                class="relative w-full overflow-hidden after:clear-both
+                after:block after:content-['']">
+                <div
+                  class="relative float-left -mr-[100%] hidden w-full
+                  text-center transition-transform duration-[600ms] ease-in-out
+                  motion-reduce:transition-none"
+                  data-te-carousel-active
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <p
+                    class="mx-auto max-w-4xl text-xl italic text-neutral-700
+                    dark:text-neutral-300">
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fugit,
+                    error amet numquam iure provident voluptate esse quasi,
+                    voluptas
+                    nostrum quisquam!"
+                  </p>
+                  <div class="mt-12 pt-12 flex justify-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                      class="h-24 w-24 rounded-full shadow-lg
+                      dark:shadow-black/30"
+                      alt="smaple image"
+                      />
+                  </div>
                 </div>
-                <div class="imageContainer-2 border-2 border-black m-1">
-                  <img class="max-w-fit md:max-w-full"
-                    src="./images/Rectangle 66.png" alt="image2" />
+                <div
+                  class="relative float-left -mr-[100%] hidden w-full
+                  text-center transition-transform duration-[600ms] ease-in-out
+                  motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <p
+                    class="mx-auto max-w-4xl text-xl italic text-neutral-700
+                    dark:text-neutral-300">
+                    "Neque cupiditate assumenda in maiores repudiandae mollitia
+                    adipisci maiores repudiandae mollitia consectetur
+                    adipisicing
+                    architecto elit sed adipiscing elit."
+                  </p>
+                  <div class="mt-12 pt-12 flex justify-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                      class="h-24 w-24 rounded-full shadow-lg
+                      dark:shadow-black/30"
+                      alt="smaple image"
+                      />
+                  </div>
                 </div>
-                <div class="imageContainer-3 border-2 border-black m-1">
-                  <img class="max-w-fit md:max-w-full"
-                    src="./images/Rectangle 67.png" alt="image3" />
+                <div
+                  class="relative float-left -mr-[100%] hidden w-full
+                  text-center transition-transform duration-[600ms] ease-in-out
+                  motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <p
+                    class="mx-auto max-w-4xl text-xl italic text-neutral-700
+                    dark:text-neutral-300">
+                    "Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse
+                    cillum dolore eu fugiat nulla pariatur est laborum neque
+                    cupiditate assumenda in maiores."
+                  </p>
+                  <div class="mt-12 pt-12 flex justify-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                      class="h-24 w-24 rounded-full shadow-lg
+                      dark:shadow-black/30"
+                      alt="smaple image"
+                      />
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <!-- CLIENTS SECTION -->
+              <button
+                class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%]
+                items-center justify-center border-0 bg-none p-0 text-center
+                text-black opacity-50 transition-opacity duration-150
+                ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black
+                hover:no-underline hover:opacity-90 hover:outline-none
+                focus:text-black focus:no-underline focus:opacity-90
+                focus:outline-none motion-reduce:transition-none dark:text-white
+                dark:opacity-50 dark:hover:text-white dark:focus:text-white"
+                type="button"
+                data-te-target="#carouselExampleCaptions"
+                data-te-slide="prev">
+                <span class="inline-block h-8 w-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                    !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+                </button>
+                <button
+                  class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%]
+                  items-center justify-center border-0 bg-none p-0 text-center
+                  text-black opacity-50 transition-opacity duration-150
+                  ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black
+                  hover:no-underline hover:opacity-90 hover:outline-none
+                  focus:text-black focus:no-underline focus:opacity-90
+                  focus:outline-none motion-reduce:transition-none
+                  dark:text-white dark:opacity-50 dark:hover:text-white
+                  dark:focus:text-white"
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide="next">
+                  <span class="inline-block h-8 w-8">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-6 w-6">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                      !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+                  </button>
+                </div>
+                <!-- Mobile Devices & Tablet Devices -->
 
-        </body>
-        <script type="module" src="/main.js"></script>
-        <!-- <script src="./node_modules/tw-elements/dist/js/index.min.js"></script> -->
-        <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-      </html>
+
+
+                <!-- Desktop Devices -->
+                <div class="testiContainer border-2 border-black max-w-lg p-8">
+                  <div class="card text-center">
+                    <!-- Here I create a New Div with class name card -->
+                    <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+                      <img class="rounded-full w-20"
+                        src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                        alt="user-image">
+                    </div>
+
+
+                    <div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Voluptatibus dolore quaerat aperiam vero odio
+                        iusto sunt? Excepturi asperiores quos eius aliquid
+                        molestiae similique reprehenderit eum sunt temporibus.
+                        Cumque, autem magnam?</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <!-- Desktop Devices -->
+            </section>
+            <!-- CLIENTS SECTION -->
+
+            <!-- CAROUSEL MID  -->
+            <section id="CAROUSELMIDSection" class="py-24 md:px-36 xl:px-40 ">
+              <div
+                id="carouselExampleCaptions3"
+                class="relative"
+                data-te-carousel-init
+                data-te-carousel-slide>
+                <div
+                  class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4
+                  flex list-none justify-center p-0"
+                  data-te-carousel-indicators>
+                  <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions3"
+                    data-te-slide-to="0"
+                    data-te-carousel-active
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial
+                    cursor-pointer border-0 border-y-[10px] border-solid
+                    border-transparent bg-white bg-clip-padding p-0
+                    -indent-[999px] opacity-50 transition-opacity
+                    duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+                    motion-reduce:transition-none"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                  <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions3"
+                    data-te-slide-to="1"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial
+                    cursor-pointer border-0 border-y-[10px] border-solid
+                    border-transparent bg-white bg-clip-padding p-0
+                    -indent-[999px] opacity-50 transition-opacity
+                    duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+                    motion-reduce:transition-none"
+                    aria-label="Slide 2"></button>
+                  <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions3"
+                    data-te-slide-to="2"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial
+                    cursor-pointer border-0 border-y-[10px] border-solid
+                    border-transparent bg-white bg-clip-padding p-0
+                    -indent-[999px] opacity-50 transition-opacity
+                    duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+                    motion-reduce:transition-none"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div
+                  class="relative w-full overflow-hidden after:clear-both
+                  after:block after:content-['']">
+                  <div
+                    class="relative float-left -mr-[100%] w-full
+                    transition-transform duration-[600ms] ease-in-out
+                    motion-reduce:transition-none"
+                    data-te-carousel-active
+                    data-te-carousel-item
+                    style="backface-visibility: hidden">
+                    <img
+                      src="images/midcar.png"
+                      class="block w-full"
+                      alt="..." />
+                  </div>
+                  <div
+                    class="relative float-left -mr-[100%] hidden w-full
+                    transition-transform duration-[600ms] ease-in-out
+                    motion-reduce:transition-none"
+                    data-te-carousel-item
+                    style="backface-visibility: hidden">
+                    <img
+                      src="images/midcar2.png"
+                      class="block w-full"
+                      alt="..." />
+
+                  </div>
+                  <div
+                    class="relative float-left -mr-[100%] hidden w-full
+                    transition-transform duration-[600ms] ease-in-out
+                    motion-reduce:transition-none"
+                    data-te-carousel-item
+                    style="backface-visibility: hidden">
+                    <img
+                      src="images/midcar3.png"
+                      class="block w-full"
+                      alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%]
+                  items-center justify-center border-0 bg-none p-0 text-center
+                  text-white opacity-50 transition-opacity duration-150
+                  ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
+                  hover:no-underline hover:opacity-90 hover:outline-none
+                  focus:text-white focus:no-underline focus:opacity-90
+                  focus:outline-none motion-reduce:transition-none"
+                  type="button"
+                  data-te-target="#carouselExampleCaptions3"
+                  data-te-slide="prev">
+                  <span class="inline-block h-8 w-8">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-6 w-6">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 19.5L8.25 12l7.5-7.5" />
+                      </svg>
+                    </span>
+                    <span
+                      class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                      !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+                  </button>
+                  <button
+                    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%]
+                    items-center justify-center border-0 bg-none p-0 text-center
+                    text-white opacity-50 transition-opacity duration-150
+                    ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white
+                    hover:no-underline hover:opacity-90 hover:outline-none
+                    focus:text-white focus:no-underline focus:opacity-90
+                    focus:outline-none motion-reduce:transition-none"
+                    type="button"
+                    data-te-target="#carouselExampleCaptions3"
+                    data-te-slide="next">
+                    <span class="inline-block h-8 w-8">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-6 w-6">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </span>
+                      <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden
+                        !whitespace-nowrap !border-0 !p-0
+                        ![clip:rect(0,0,0,0)]">Next</span>
+                    </button>
+                  </div>
+
+
+
+
+                </section>
+
+                <!-- CAROUSEL MID  -->
+
+
+                <!-- Tabs CONTAINER -->
+                <section id="tabsContainer" class="py-12 lg:px-36 bg-white">
+                  <ul
+                    class="mb-5 flex list-none flex-row border-b-0
+                    pl-0"
+                    role="tablist"
+                    data-te-nav-ref>
+                    <li role="presentation" class="mx-4">
+                      <a
+                        href="#tabs-Lifestyle"
+                        class="my-2 block border-x-0 border-t-0 border-b-4
+                        border-transparent px-2 sm:px-4 md:px-7 pt-4 pb-3.5
+                        font-bold
+                        uppercase leading-tight text-neutral-500 hover:isolate
+                        hover:bg-neutral-100
+                        text-TextPrimaryFigma border-b-[#0B8497]
+                        text-xs md:text-2xl
+                        "
+                        data-te-toggle="pill"
+                        data-te-target="#tabs-Lifestyle"
+                        data-te-nav-active
+                        role="tab"
+                        aria-controls="tabs-Lifestyle"
+                        aria-selected="true">Lifestyle</a>
+                    </li>
+                    <li role="presentation" class="mx-4">
+                      <a
+                        href="#tabs-Travel"
+                        class="my-2 block border-x-0 border-t-0 border-b-4
+                        border-transparent px-2 sm:px-4 md:px-7 pt-4 pb-3.5
+                        font-bold
+                        uppercase leading-tight text-neutral-500 hover:isolate
+                        hover:bg-neutral-100
+                        text-TextPrimaryFigma border-b-[#808013]
+                        text-xs md:text-2xl"
+                        data-te-toggle="pill"
+                        data-te-target="#tabs-Travel"
+                        role="tab"
+                        aria-controls="tabs-Travel"
+                        aria-selected="false">Travel</a>
+                    </li>
+                    <li role="presentation" class="mx-4">
+                      <a
+                        href="#tabs-Photos"
+                        class="my-2 block border-x-0 border-t-0 border-b-4
+                        border-transparent px-2 sm:px-4 md:px-7 pt-4 pb-3.5
+                        font-bold
+                        uppercase leading-tight text-neutral-500
+                        border-b-[#F8A488]
+                        text-TextPrimaryFigma
+                        text-xs md:text-2xl "
+                        data-te-toggle="pill"
+                        data-te-target="#tabs-Photos"
+                        role="tab"
+                        aria-controls="tabs-Photos"
+                        aria-selected="false">Photos</a>
+                    </li>
+                  </ul>
+                  <div class="mb-6">
+                    <div
+                      class="hidden opacity-0 opacity-100 transition-opacity
+                      py-8 px-8 border border-[#0B8497] mx-4
+                      duration-150 ease-linear data-[te-tab-active]:block"
+                      id="tabs-Lifestyle"
+                      role="tabpanel"
+                      aria-labelledby="tabs-Lifestyle-tab"
+                      data-te-tab-active>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                        pulvinar dapibus leo.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Pulvinar
+                        dapibus leo.</p>
+                    </div>
+                    <div
+                      class="hidden opacity-0 transition-opacity duration-150
+                      py-8 px-8 border border-[#0B8497] mx-4
+                      ease-linear data-[te-tab-active]:block"
+                      id="tabs-Travel"
+                      role="tabpanel"
+                      aria-labelledby="tabs-Travel-tab">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                        pulvinar dapibus leo.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Pulvinar
+                        dapibus leo.</p>
+                    </div>
+                    <div
+                      class="hidden opacity-0 transition-opacity duration-150
+                      py-8 px-8 border border-[#0B8497] mx-4
+                      ease-linear data-[te-tab-active]:block"
+                      id="tabs-Photos"
+                      role="tabpanel"
+                      aria-labelledby="tabs-Photos-tab">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                        pulvinar dapibus leo.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Pulvinar
+                        dapibus leo.</p>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- Tabs CONTAINER -->
+                <!-- Lets Collab Section -->
+
+                <section id="collabSection">
+                  <div class="headingContainer pl-7 pt-10
+                    my-2 lg:text-center">
+                    <h2 class="text-2xl lg:text-3xl font-medium lg:font-bold">Lets
+                      Collaborate Together</h2>
+                  </div>
+                  <div class="paraContainer grid grid-cols-1 gap-30 lg:gap-5
+                    lg:justify-center lg:px-28
+                    md:grid-cols-2
+                    lg:grid-cols-4">
+                    <div id="desktop" class="paraCollab1 hidden lg:block p-9
+                      lg:leading-10">
+                      <h2>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen
+                        book. </h2>
+                    </div>
+                    <div id="mob_Tab" class="paraCollab1 lg:hidden p-9 max-w-md
+                      md:min-w-fit
+                      leading-relaxed">
+                      <h2 class="pb-4">Lorem Ipsum is simply dummy text of the
+                        printing and
+                        typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s.</h2>
+                      <h2>when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</h2>
+                    </div>
+                    <div class="paraCollab2 p-9 hidden md:block lg:leading-10">
+                      <h2 class="pb-4">It has survived not only five centuries,
+                        but also the
+                        leap into electronic typesetting, remaining essentially
+                        unchanged.</h2>
+                      <h2>It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing </h2>
+                    </div>
+                    <div class="paraCollab3 p-9 hidden lg:block lg:leading-10">
+                      <h2>software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</h2>
+                      <h2>Why do we use it?</h2>
+                      <h2>It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of</h2>
+                    </div>
+                    <div class="paraCollab4 p-9 hidden lg:block lg:leading-10">
+                      <h2> letters, as opposed to using 'Content here, content
+                        here', making it look like readable English.</h2>
+                      <h2>Many desktop publishing packages and web page editors
+                        now use Lorem Ipsum as their default model text, and a
+                        search for 'lorem ipsum' will uncover many web sites
+                        still in their infancy.</h2>
+                    </div>
+                  </div>
+                </section>
+
+
+                <!-- Lets Collab Section -->
+                <!-- Recent Post Section -->
+
+                <section id="recentPost" class="bg-white py-5">
+                  <div class="headingCont text-center px-2 py-6">
+                    <h2 class="text-3xl font-medium">Recent Posts</h2>
+                  </div>
+
+                  <!-- Mobile Section -->
+                  <!-- post1 -->
+                  <div class="carddContainer p-5 border border-yellow-300 m-3
+                    md:hidden">
+                    <h2 class="text-sm">PHOTO</h2>
+                    <h2 class="text-xl font-normal py-3">Little Known Ways To
+                      Rid
+                      YourSelf</h2>
+                    <h2 class="text-sm">June 20,2021</h2>
+                  </div>
+                  <!-- post1 -->
+                  <!-- post2 -->
+                  <div class="carddContainer p-5 border border-yellow-300 m-3
+                    md:hidden">
+                    <h2 class="text-sm">PHOTO</h2>
+                    <h2 class="pt-4 text-xl font-normal">Lorem ipsum
+                      dolor sit amet,consectetur adipiscing elit.</h2>
+                    <h2 class="text-sm">June 20,2021</h2>
+                  </div>
+                  <!-- post2 -->
+                  <!-- post3 -->
+                  <div class="carddContainer p-5 border border-yellow-300 m-3
+                    md:hidden">
+                    <h2 class="text-sm">PHOTO</h2>
+                    <h2 class="text-xl font-normal py-3">Little Known Ways To
+                      Rid
+                      YourSelf</h2>
+                    <h2 class="text-sm">June 20,2021</h2>
+                  </div>
+                  <!-- post3 -->
+                  <!-- Mobile Section -->
+                  <!-- Tab View Section -->
+
+                  <div class="recentpostContainer hidden md:grid md:grid-cols-2
+                    md:gap-5 md:justify-items-center lg:hidden mx-28 my-10">
+                    <!-- CARD TYPE 1 -->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-xl">
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 -->
+                    <!-- CARD TYPE 2 -->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-xl">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="pt-4 px-2 text-xl font-semibold">Lorem ipsum
+                          dolor sit amet,</h2>
+                        <h2 class="pb-4 px-2 text-xl font-semibold">consectetur
+                          adipiscing elit.</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 2 -->
+                    <!-- CARD TYPE 1 -->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-xl">
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 -->
+                    <!-- CARD TYPE 2 -->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-xl">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="pt-4 px-2 text-xl font-semibold">Lorem ipsum
+                          dolor sit amet,</h2>
+                        <h2 class="pb-4 px-2 text-xl font-semibold">consectetur
+                          adipiscing elit.</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 2 -->
+                    <!-- CARD TYPE 1 -->
+                    <div class="cardtyp-1 hidden xl:block border
+                      border-[#D0D0A7] max-w-xl">
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 -->
+                    <!-- CARD TYPE 2 -->
+                    <div class="cardtyp-1 hidden xl:block border
+                      border-[#D0D0A7] max-w-xl">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="pt-4 px-2 text-xl font-semibold">Lorem ipsum
+                          dolor sit amet,</h2>
+                        <h2 class="pb-4 px-2 text-xl font-semibold">consectetur
+                          adipiscing elit.</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 2 -->
+
+
+
+                  </div>
+
+                  <!-- Tab View Section -->
+                  <!-- Desktop View Section -->
+
+                  <div class="recentpostContainer hidden lg:grid
+                    lg:grid-cols-3 mx-28 my-10
+                    lg:gap-5 lg:justify-items-center">
+                    <!-- CARD TYPE 1 Desktop -->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-sm">
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2 border-b-2 border-b-[#D0D0A7]">June
+                          20,2021</h2>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 Desktop-->
+                    <!-- CARD TYPE 2 Desktop-->
+                    <div class="cardtyp-2 border border-[#D0D0A7] max-w-sm">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="pt-4 px-2 text-xl font-semibold">Little Known
+                          Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2 border-b-2 border-b-[#D0D0A7]">June
+                          20,2021</h2>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 2 Desktop-->
+                    <!-- CARD TYPE 1 Desktop-->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-sm">
+                      <div class="imageContainer">
+                        <img class="w-full" src="./images/Recent Post Img.png"
+                          alt="recentpost">
+                      </div>
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2 border-b-2 border-b-[#D0D0A7]">June
+                          20,2021</h2>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 Desktop-->
+                    <!-- UPPER CLOSED HERE -->
+
+
+                    <!-- CARD TYPE 1 Down side-->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-sm">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <div class="imageContainer">
+                          <img class="w-full" src="./images/Recent Post Img.png"
+                            alt="recentpost">
+                        </div>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 Down side-->
+                    <!-- CARD TYPE 1 Down side-->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-sm">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <div class="imageContainer">
+                          <img class="w-full" src="./images/Recent Post Img.png"
+                            alt="recentpost">
+                        </div>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 Down side-->
+                    <!-- CARD TYPE 1 Down side-->
+                    <div class="cardtyp-1 border border-[#D0D0A7] max-w-sm">
+                      <div class="contentContainer text-center">
+                        <h2 class="py-2">PHOTO</h2>
+                        <h2 class="py-4 text-xl font-semibold">Little Known Ways
+                          To Rid YourSelf</h2>
+                        <h2 class="py-2">June 20,2021</h2>
+                        <div class="imageContainer">
+                          <img class="w-full" src="./images/Recent Post Img.png"
+                            alt="recentpost">
+                        </div>
+                        <h2 class="py-2 px-4">Special cloth alert. Fan luv.
+                          Celebrate success right, the only way, apple. Give
+                          thanks to the most high. In life there will be road
+                          blocks but we will over come... </h2>
+                        <h2 class="px-3 py-7"><a href="#" class="border
+                            border-[#D0D0A7] py-2 px-5">Read More</a></h2>
+                      </div>
+                    </div>
+                    <!-- CARD TYPE 1 Down side-->
+
+
+
+
+
+                  </div>
+
+                  <!-- Desktop View Section -->
+
+
+                </section>
+
+                <!-- Recent Post Section -->
+
+
+                <!--Contact US Mobile Section -->
+                <section id="contactUS" class="py-20">
+                  <div class="heading text-center p-4">
+                    <h2 class="text-2xl font-medium">Contact Us</h2>
+                  </div>
+                  <div class="FormsContainer md:hidden px-4">
+                    <form>
+                      <input type="text" placeholder="First Name" class="p-4
+                        my-4
+                        w-full text-xl placeholder:text-TextPrimaryFigma
+                        bg-fullbodyColor">
+                      <input type="text" placeholder="Last Name" class="p-4 my-4
+                        w-full text-xl placeholder:text-TextPrimaryFigma
+                        bg-fullbodyColor">
+                      <input type="email" placeholder="Email" class="p-4 my-4
+                        w-full text-xl placeholder:text-TextPrimaryFigma
+                        bg-fullbodyColor">
+                      <div class="uploadFile">
+                        <label class="my-14" for="Upload File">Upload File</label>
+                        <div class="dropFileSection text-center border-dashed
+                          border-2 border-gray-400 p-10">
+                          <h2 class="py-3">Drop Your Files Here</h2>
+                          <h2 class="py-3">or</h2>
+                          <h2 class="py-3"><a class="border-2 border-gray-400
+                              p-4"
+                              href="#">Browse
+                              File</a></h2>
+                        </div>
+                        <div class="Comments mt-9">
+                          <label for="comments">Comments</label>
+                          <textarea
+                            class="peer block min-h-[auto] w-full rounded
+                            border-2 bg-fullbodyColor py-[0.32rem] px-3
+                            leading-[1.6] outline-none transition-all
+                            duration-200 ease-linear"
+                            id="exampleFormControlTextarea1"
+                            rows="3"
+                            placeholder="Your message"></textarea>
+                        </div>
+                        <div class="submitButton">
+                          <h2 class="py-6"><a class="border-2 border-gray-400
+                              p-4"
+                              href="#">SUBMIT</a></h2>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- Contact US Mobile Section -->
+                  <!-- Tab and Desktop Form -->
+                  <form>
+                    <div class="FormsContainer hidden px-4 md:grid
+                      md:grid-cols-2 md:gap-5 lg:gap-10 mx-12 lg:mx-24">
+                      <div class="leftSideeForm">
+                        <input type="text" placeholder="First Name" class="p-4
+                          my-4
+                          w-full text-xl placeholder:text-TextPrimaryFigma
+                          bg-fullbodyColor">
+                        <input type="text" placeholder="Last Name" class="p-4
+                          my-4
+                          w-full text-xl placeholder:text-TextPrimaryFigma
+                          bg-fullbodyColor">
+                        <input type="email" placeholder="Email" class="p-4 my-4
+                          w-full text-xl placeholder:text-TextPrimaryFigma
+                          bg-fullbodyColor">
+                        <div class="Comments mt-9">
+                          <label for="comments">Comments</label>
+                          <textarea
+                            class="peer block min-h-[auto] w-full rounded
+                            border-2 bg-fullbodyColor py-[0.32rem] px-3
+                            leading-[1.6] outline-none transition-all
+                            duration-200 ease-linear"
+                            id="exampleFormControlTextarea1"
+                            rows="4"
+                            placeholder="Your message"></textarea>
+                        </div>
+                        <div class="submitButton">
+                          <h2 class="py-6"><a class="border-2 border-gray-400
+                              p-4"
+                              href="#">SUBMIT</a></h2>
+                        </div>
+                      </div>
+
+                      <div class="rightSideeForm pt-8">
+                        <div class="uploadFile">
+                          <label class="my-14" for="Upload File">Upload File</label>
+                          <div class="dropFileSection text-center border-dashed
+                            border-2 border-gray-400 p-10">
+                            <h2 class="py-3">Drop Your Files Here</h2>
+                            <h2 class="py-3">or</h2>
+                            <h2 class="py-3"><a class="border-2 border-gray-400
+                                p-4"
+                                href="#">Browse
+                                File</a></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Tab and Desktop Form -->
+                </section>
+
+                <section id="FAQSection" class="py-20">
+                  <div class="heading text-center p-4">
+                    <h2 class="text-2xl font-medium">FAQ</h2>
+                  </div>
+                  <div id="accordionExample" class="px-4">
+                    <div
+                      class="rounded-t-lg border border-neutral-200 bg-white
+                      dark:border-neutral-600 dark:bg-neutral-800">
+                      <h2 class="mb-0" id="headingOne">
+                        <button
+                          class="group relative flex w-full items-center
+                          rounded-t-[15px] border-0 bg-white py-4 px-5 text-left
+                          text-base text-neutral-800 transition
+                          [overflow-anchor:none] hover:z-[2] focus:z-[3]
+                          focus:outline-none dark:bg-neutral-800 dark:text-white
+                          [&:not([data-te-collapse-collapsed])]:bg-white
+                          [&:not([data-te-collapse-collapsed])]:text-primary
+                          [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]
+                          dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800
+                          dark:[&:not([data-te-collapse-collapsed])]:text-primary-400
+                          dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                          type="button"
+                          data-te-collapse-init
+                          data-te-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne">
+                          Accordion Item #1
+                          <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg]
+                            fill-[#336dec] transition-transform duration-200
+                            ease-in-out
+                            group-[[data-te-collapse-collapsed]]:rotate-0
+                            group-[[data-te-collapse-collapsed]]:fill-[#212529]
+                            motion-reduce:transition-none dark:fill-blue-300
+                            dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="h-6 w-6">
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                            </span>
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOne"
+                          class="!visible"
+                          data-te-collapse-item
+                          data-te-collapse-show
+                          aria-labelledby="headingOne"
+                          data-te-parent="#accordionExample">
+                          <div class="py-4 px-5">
+                            <strong>This is the first item's accordion body.</strong>
+                            It is
+                            shown by default, until the collapse plugin adds the
+                            appropriate
+                            classes that we use to style each element. These
+                            classes control
+                            the overall appearance, as well as the showing and
+                            hiding via CSS
+                            transitions. You can modify any of this with custom
+                            CSS or
+                            overriding our default variables. It's also worth
+                            noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="border border-t-0 border-neutral-200 bg-white
+                        dark:border-neutral-600 dark:bg-neutral-800">
+                        <h2 class="mb-0" id="headingTwo">
+                          <button
+                            class="group relative flex w-full items-center
+                            rounded-none border-0 bg-white py-4 px-5 text-left
+                            text-base text-neutral-800 transition
+                            [overflow-anchor:none] hover:z-[2] focus:z-[3]
+                            focus:outline-none dark:bg-neutral-800
+                            dark:text-white
+                            [&:not([data-te-collapse-collapsed])]:bg-white
+                            [&:not([data-te-collapse-collapsed])]:text-primary
+                            [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]
+                            dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800
+                            dark:[&:not([data-te-collapse-collapsed])]:text-primary-400
+                            dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                            type="button"
+                            data-te-collapse-init
+                            data-te-collapse-collapsed
+                            data-te-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Accordion Item #2
+                            <span
+                              class="ml-auto -mr-1 h-5 w-5 shrink-0
+                              rotate-[-180deg] fill-[#336dec]
+                              transition-transform duration-200 ease-in-out
+                              group-[[data-te-collapse-collapsed]]:mr-0
+                              group-[[data-te-collapse-collapsed]]:rotate-0
+                              group-[[data-te-collapse-collapsed]]:fill-[#212529]
+                              motion-reduce:transition-none dark:fill-blue-300
+                              dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-6 w-6">
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                              </span>
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseTwo"
+                            class="!visible hidden"
+                            data-te-collapse-item
+                            aria-labelledby="headingTwo"
+                            data-te-parent="#accordionExample">
+                            <div class="py-4 px-5">
+                              <strong>This is the second item's accordion body.</strong>
+                              It is
+                              hidden by default, until the collapse plugin adds
+                              the appropriate
+                              classes that we use to style each element. These
+                              classes control
+                              the overall appearance, as well as the showing and
+                              hiding via CSS
+                              transitions. You can modify any of this with
+                              custom CSS or
+                              overriding our default variables. It's also worth
+                              noting that just
+                              about any HTML can go within the <code>.accordion-body</code>,
+                              though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="rounded-b-lg border border-t-0
+                          border-neutral-200 bg-white dark:border-neutral-600
+                          dark:bg-neutral-800">
+                          <h2 class="accordion-header mb-0" id="headingThree">
+                            <button
+                              class="group relative flex w-full items-center
+                              border-0 bg-white py-4 px-5 text-left text-base
+                              text-neutral-800 transition [overflow-anchor:none]
+                              hover:z-[2] focus:z-[3] focus:outline-none
+                              dark:bg-neutral-800 dark:text-white
+                              [&:not([data-te-collapse-collapsed])]:bg-white
+                              [&:not([data-te-collapse-collapsed])]:text-primary
+                              [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]
+                              dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800
+                              dark:[&:not([data-te-collapse-collapsed])]:text-primary-400
+                              dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]
+                              [&[data-te-collapse-collapsed]]:rounded-b-[15px]
+                              [&[data-te-collapse-collapsed]]:transition-none"
+                              type="button"
+                              data-te-collapse-init
+                              data-te-collapse-collapsed
+                              data-te-target="#collapseThree"
+                              aria-expanded="false"
+                              aria-controls="collapseThree">
+                              Accordion Item #3
+                              <span
+                                class="ml-auto -mr-1 h-5 w-5 shrink-0
+                                rotate-[-180deg] fill-[#336dec]
+                                transition-transform duration-200 ease-in-out
+                                group-[[data-te-collapse-collapsed]]:mr-0
+                                group-[[data-te-collapse-collapsed]]:rotate-0
+                                group-[[data-te-collapse-collapsed]]:fill-[#212529]
+                                motion-reduce:transition-none dark:fill-blue-300
+                                dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke-width="1.5"
+                                  stroke="currentColor"
+                                  class="h-6 w-6">
+                                  <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                  </svg>
+                                </span>
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseThree"
+                              class="!visible hidden"
+                              data-te-collapse-item
+                              aria-labelledby="headingThree"
+                              data-te-parent="#accordionExample">
+                              <div class="py-4 px-5">
+                                <strong>This is the third item's accordion body.</strong>
+                                It is
+                                hidden by default, until the collapse plugin
+                                adds the appropriate
+                                classes that we use to style each element. These
+                                classes control
+                                the overall appearance, as well as the showing
+                                and hiding via CSS
+                                transitions. You can modify any of this with
+                                custom CSS or
+                                overriding our default variables. It's also
+                                worth noting that just
+                                about any HTML can go within the <code>.accordion-body</code>,
+                                though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                    </body>
+                    <script type="module" src="/main.js"></script>
+                    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+                  </html>
